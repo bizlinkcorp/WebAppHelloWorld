@@ -6,6 +6,7 @@ import org.springframework.boot.web.support.SpringBootServletInitializer;
 
 public class App extends SpringBootServletInitializer {
 	public static void main(String[] args) {
+		// コメントを入れました
 		SpringApplication.run(AppConfiguration.class, args);
 	}
 
