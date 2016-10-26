@@ -12,7 +12,7 @@ public class App extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		// さらに修正しました。
+		// さらに修正しました。直したよー
 		return application.sources(AppConfiguration.class);
 	}
 }
