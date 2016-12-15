@@ -34,6 +34,10 @@ uploadArchives {
     }
 }
 
+war {
+	archiveName 'WebAppHelloWorld.war'
+}
+
 task wrapper(type: Wrapper) {
 	gradleVersion = '3.1'
 }
