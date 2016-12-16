@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ec2-user/gh
+    destination: /home/ec2-user/gh2
 #hooks:
 #  ApplicationStart:
 #    - location: scripts/codedeploy_start.sh
