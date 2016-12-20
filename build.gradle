@@ -16,10 +16,10 @@ repositories {
 }
 
 dependencies {
-	compile("org.springframework.boot:spring-boot-starter-web:1.4.1.RELEASE") {
+	compile("org.springframework.boot:spring-boot-starter-web:1.4.2.RELEASE") {
 		exclude module: 'spring-boot-starter-tomcat'
 	}
-	compileOnly("org.springframework.boot:spring-boot-starter-tomcat:1.4.1.RELEASE")
+	compileOnly("org.springframework.boot:spring-boot-starter-tomcat:1.4.2.RELEASE")
 }
 
 test {
@@ -39,5 +39,5 @@ war {
 }
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '3.1'
+	gradleVersion = '3.2.1'
 }
